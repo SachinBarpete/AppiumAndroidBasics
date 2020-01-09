@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-01-08T14:13:11 IST" name="Default suite" finished-at="2020-01-08T14:13:38 IST" duration-ms="26848">
+    <groups>
+    </groups>
+    <test started-at="2020-01-08T14:13:11 IST" name="Default test" finished-at="2020-01-08T14:13:38 IST" duration-ms="26848">
+      <class name="com.bridgelabz.test.Calculator">
+        <test-method signature="addTest()[pri:0, instance:com.bridgelabz.test.Calculator@32910148]" started-at="2020-01-08T14:13:11 IST" name="addTest" finished-at="2020-01-08T14:13:38 IST" duration-ms="26800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTest -->
+      </class> <!-- com.bridgelabz.test.Calculator -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
