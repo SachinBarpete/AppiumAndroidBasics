@@ -36,7 +36,7 @@ public class TextBoxCheckBoxRadioButton extends Base {
 		// Dark theme
 		driver.findElementByAccessibilityId("2. Dark Theme").click();
 		Thread.sleep(500);
-		driver.findElementById("io.appium.android.apis:id/edit").sendKeys("welcome");
+		driver.findElementById("io.appium.android.apis:id/edit").sendKeys("Welcome");
 		Thread.sleep(200);
 		driver.findElementById("io.appium.android.apis:id/check1").click();
 		Thread.sleep(200);

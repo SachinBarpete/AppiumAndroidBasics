@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Web Application Test Automation Suite">
+
+	<listeners>
+		<listener
+			class-name="com.bridgelabz.extentreport.ExtentReportListener" />
+	</listeners>
+	
+	<test name="Appium basic test cases">
+		<classes>
+			<class name="com.bridgelabz.test.Calculator" />
+			<class name="com.bridgelabz.test.DragAndDrop" />
+			<class name="com.bridgelabz.test.InstallApk" />
+			<class name="com.bridgelabz.test.TextBoxCheckBoxRadioButton" />
+			<class name="com.bridgelabz.test.VerticalScrolling" />
+		</classes>
+	</test>
+</suite>

@@ -1,17 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-01-08T14:13:11 IST" name="Default suite" finished-at="2020-01-08T14:13:38 IST" duration-ms="26848">
+  <suite started-at="2020-01-09T19:56:01 IST" name="Web Application Test Automation Suite" finished-at="2020-01-09T19:58:03 IST" duration-ms="121696">
     <groups>
     </groups>
-    <test started-at="2020-01-08T14:13:11 IST" name="Default test" finished-at="2020-01-08T14:13:38 IST" duration-ms="26848">
+    <test started-at="2020-01-09T19:56:01 IST" name="Appium basic test cases" finished-at="2020-01-09T19:58:03 IST" duration-ms="121696">
+      <class name="com.bridgelabz.test.VerticalScrolling">
+        <test-method signature="scrollingTest()[pri:0, instance:com.bridgelabz.test.VerticalScrolling@36d585c]" started-at="2020-01-09T19:57:34 IST" name="scrollingTest" finished-at="2020-01-09T19:58:03 IST" duration-ms="28476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollingTest -->
+      </class> <!-- com.bridgelabz.test.VerticalScrolling -->
+      <class name="com.bridgelabz.test.DragAndDrop">
+        <test-method signature="dragAndDropTest()[pri:0, instance:com.bridgelabz.test.DragAndDrop@dd0c991]" started-at="2020-01-09T19:56:20 IST" name="dragAndDropTest" finished-at="2020-01-09T19:56:45 IST" duration-ms="24583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dragAndDropTest -->
+      </class> <!-- com.bridgelabz.test.DragAndDrop -->
       <class name="com.bridgelabz.test.Calculator">
-        <test-method signature="addTest()[pri:0, instance:com.bridgelabz.test.Calculator@32910148]" started-at="2020-01-08T14:13:11 IST" name="addTest" finished-at="2020-01-08T14:13:38 IST" duration-ms="26800" status="PASS">
+        <test-method signature="addTest()[pri:0, instance:com.bridgelabz.test.Calculator@6bf0219d]" started-at="2020-01-09T19:56:01 IST" name="addTest" finished-at="2020-01-09T19:56:20 IST" duration-ms="19112" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addTest -->
       </class> <!-- com.bridgelabz.test.Calculator -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.bridgelabz.test.InstallApk">
+        <test-method signature="installApkTest()[pri:0, instance:com.bridgelabz.test.InstallApk@5f16132a]" started-at="2020-01-09T19:56:45 IST" name="installApkTest" finished-at="2020-01-09T19:57:01 IST" duration-ms="15818" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- installApkTest -->
+      </class> <!-- com.bridgelabz.test.InstallApk -->
+      <class name="com.bridgelabz.test.TextBoxCheckBoxRadioButton">
+        <test-method signature="test()[pri:0, instance:com.bridgelabz.test.TextBoxCheckBoxRadioButton@69fb6037]" started-at="2020-01-09T19:57:01 IST" name="test" finished-at="2020-01-09T19:57:34 IST" duration-ms="33635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- com.bridgelabz.test.TextBoxCheckBoxRadioButton -->
+    </test> <!-- Appium basic test cases -->
+  </suite> <!-- Web Application Test Automation Suite -->
 </testng-results>
