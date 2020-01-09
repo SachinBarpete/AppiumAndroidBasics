@@ -5,6 +5,7 @@ import java.net.URL;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.testng.annotations.Test;
 
 import com.bridgelabz.base.Base;
 
@@ -17,7 +18,8 @@ import io.appium.java_client.android.AndroidDriver;
  */
 public class DailNumber extends Base {
 
-	public static void main(String[] args) throws MalformedURLException, InterruptedException {
+	@Test
+	public void test() throws MalformedURLException, InterruptedException {
 		DesiredCapabilities desiredCapabilities = setDesiredCapabilities();
 		desiredCapabilities.setCapability("appPackage", "com.android.dialer");
 		desiredCapabilities.setCapability("appActivity", "com.android.dialer.DialtactsActivity");

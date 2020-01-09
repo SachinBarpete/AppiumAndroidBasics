@@ -2,8 +2,10 @@ package com.bridgelabz.test;
 
 import java.net.MalformedURLException;
 import java.net.URL;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.testng.annotations.Test;
 
 import com.bridgelabz.base.Base;
 
@@ -20,7 +22,8 @@ import io.appium.java_client.touch.offset.ElementOption;
  */
 public class DragAndDrop extends Base {
 
-	public static void main(String[] args) throws InterruptedException {
+	@Test
+	public void dragAndDropTest() throws InterruptedException {
 		DesiredCapabilities desiredCapabilities = setDesiredCapabilities();
 		desiredCapabilities.setCapability(MobileCapabilityType.APP,
 				System.getProperty("user.dir") + "/apk/draganddrop.apk");

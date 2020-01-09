@@ -2,10 +2,13 @@ package com.bridgelabz.test;
 
 import java.net.MalformedURLException;
 import java.net.URL;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.Test;
+
 import com.bridgelabz.base.Base;
+
 import io.appium.java_client.MobileBy;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;

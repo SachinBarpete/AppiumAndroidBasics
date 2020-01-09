@@ -2,9 +2,13 @@ package com.bridgelabz.test;
 
 import java.net.MalformedURLException;
 import java.net.URL;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.testng.annotations.Test;
+
 import com.bridgelabz.base.Base;
+
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.remote.MobileCapabilityType;
 
@@ -15,7 +19,8 @@ import io.appium.java_client.remote.MobileCapabilityType;
  */
 public class InstallApk extends Base {
 
-	public static void main(String[] args) {
+	@Test
+	public void installApkTest() {
 		DesiredCapabilities desiredCapabilities = setDesiredCapabilities();
 		desiredCapabilities.setCapability(MobileCapabilityType.APP, System.getProperty("user.dir") + "/apk/Files.apk");
 		URL url = null;

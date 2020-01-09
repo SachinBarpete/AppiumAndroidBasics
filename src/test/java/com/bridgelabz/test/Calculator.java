@@ -23,7 +23,6 @@ public class Calculator extends Base {
 		DesiredCapabilities desiredCapabilities = setDesiredCapabilities();
 		desiredCapabilities.setCapability("appPackage", "com.android.calculator2");
 		desiredCapabilities.setCapability("appActivity", "com.android.calculator2.Calculator");
-
 		URL url = null;
 		try {
 			url = new URL("http://127.0.0.1:4723/wd/hub");
